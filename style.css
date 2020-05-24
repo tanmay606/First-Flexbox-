@@ -1,0 +1,84 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(46, 43, 43);
+    color:black;
+}
+
+
+.web-container 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.web-domain-title
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    font-size: large;
+}
+.web-domain-details
+{
+    padding: 20px;
+    text-align: center;
+}
+img 
+{
+    margin: 10px;border: 3px solid grey;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+
+}
+.web-image-area
+{
+    background: url('profile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:3px solid grey;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+footer
+{
+    color: white;
+    text-align: center;
+}
+
+.web-each-box
+{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: 0.3s;
+}
+
+.web-each-box:nth-child(1):hover
+{
+    background-color: rgb(51, 143, 63);
+    color: white;
+}
+.web-each-box:nth-child(2):hover
+{
+    background-color: rgb(25, 148, 142);
+    color: white;
+}
+.web-each-box:nth-child(3):hover
+{
+    background-color: rgb(204, 142, 27);
+    color: white;
+}
